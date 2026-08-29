@@ -1,0 +1,44 @@
+title: Bedrock Concrete & Masonry
+description: >-
+  Bedrock Concrete & Masonry pours foundations, retaining walls, decorative
+  concrete, and commercial flatwork across the Denver metro — licensed,
+  bonded, and built to spec every time.
+url: "https://webdashy.github.io"
+baseurl: "/bedrock-concrete-masonry"
+lang: en_US
+
+author:
+  name: Bedrock Concrete & Masonry
+
+business:
+  name: Bedrock Concrete & Masonry
+  phone: "+1-303-555-0199"
+  phone_display: "(303) 555-0199"
+  email: estimates@bedrockconcretemasonry.example
+  street: 4410 Brighton Blvd
+  city: Commerce City
+  region: CO
+  postal_code: "80022"
+  license: "CO-GC-000333"
+  founded: 2009
+  yards_poured: 48000
+  hours: "Mon–Fri, 6am–4:30pm MT"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
